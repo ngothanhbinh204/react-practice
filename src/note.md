@@ -20,3 +20,7 @@
 # services : tách riêng phần logic xử lý dữ liệu
 
 # Tách logic call Api và logic xử lý dữ liệu
+
+# customize Axios: để set lấy đúng dữ liệu cần lấy
+
+# interceptor

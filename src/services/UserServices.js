@@ -1,8 +1,8 @@
-import axios from "axios";
+import axios from "./customizeAxios";
 
-const fetchAllUser = () => {
+const fetchAllUser = (page) => {
   // Trả về 1 promise
-  return axios.get("https://reqres.in/api/users?page=1");
+  return axios.get(`/api/users?page=${page}`);
 };
 
 export { fetchAllUser };
