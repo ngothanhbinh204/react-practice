@@ -16,3 +16,7 @@
    - Export excel
 
 # Advance : using Redux
+
+# services : tách riêng phần logic xử lý dữ liệu
+
+# Tách logic call Api và logic xử lý dữ liệu
